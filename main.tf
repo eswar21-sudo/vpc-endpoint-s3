@@ -1,6 +1,5 @@
 module "s3_vpc_endpoint" {
   source = "./vpc-endpoint-s3"
-
   region          = "us-east-1"
   vpc_id          = "vpc-123456"
   route_table_ids = ["rtb-aaa", "rtb-bbb"]
