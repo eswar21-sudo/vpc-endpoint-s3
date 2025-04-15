@@ -1,6 +1,5 @@
 provider "aws" {
  region = var.region
-
 }
 
 resource "aws_vpc_endpoint" "s3" {
